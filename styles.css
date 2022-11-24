@@ -4,6 +4,7 @@ body {
 
 #navBar {
   background-color: grey;
+  width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -27,6 +28,7 @@ body {
 }
 
 .birla {
+  width: 100%;
   display: flex;
   flex-direction: row;
   padding: 0 15%;
