@@ -35,16 +35,26 @@ body {
   margin-top: 4rem !important; */
 }
 
+
 .heroImage {
+  /* display: block; */
+  text-align: right;
   margin: 20px;
 }
 
-.heroImage>img {
+@media screen and (width < 999px) {
+  .heroImage {
+    text-align: left;
+    margin: 20px;
+  }
+
+}
+
+.heroImage img {
   border-radius: 1rem;
   width: 180px;
   height: 180px;
 }
-
 .heroText {
   margin: 20px;
 }
