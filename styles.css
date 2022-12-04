@@ -2,6 +2,7 @@ body {
   font-family: "DM Serif Display", serif;
   box-sizing: border-box;
 }
+
 /* 
 #navBar {
   color: white;
@@ -15,18 +16,34 @@ body {
 
 #about {
   display: block;
+  /* text-align: center; */
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#about h2 {
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .aboutText {
+  text-align: center;
   text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.45;
+  font-size: 100%;
+  color: #000;
+
 }
 
 .about-profile-div {
   max-width: 95% !important;
 }
+
+.body-font {
+  font-family: "Inter", sans-serif;
+}
+
 .birla {
   /* width: 100%;
   display: flex;
@@ -34,7 +51,6 @@ body {
   padding: 0 15%;
   margin-top: 4rem !important; */
 }
-
 
 .heroImage {
   /* display: block; */
@@ -55,6 +71,7 @@ body {
   width: 180px;
   height: 180px;
 }
+
 .heroText {
   margin: 20px;
 }
